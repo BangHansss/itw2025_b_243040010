@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Supermoto Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Galeri Motor Supermoto</h1>
+    <p>Supermoto itu lincah, keren, dan penuh gaya!</p>
+</header>
+
+<section class="gallery">
+    <img src="img/foto1.jpg" onclick="openLightbox(this)">
+    <img src="img/foto2.jpg" onclick="openLightbox(this)">
+    <img src="img/foto3.jpg" onclick="openLightbox(this)">
+</section>
+
+<!-- LIGHTBOX -->
+<div id="lightbox" onclick="closeLightbox()">
+    <img id="lightbox-img">
+</div>
+
+<script src="lightbox.js"></script>
+</body>
+</html>
